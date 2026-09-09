@@ -1,5 +1,3 @@
-#### `02-Installation/windows-agent.md`
-
 # Installation de l'agent Wazuh sur Windows
 
 ## 1. Enregistrement de l'agent
