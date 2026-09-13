@@ -10,3 +10,9 @@ Simuler une tentative d'authentification intensive (brute-force) depuis la machi
 - **Commande exécutée :**
   ```bash
   hydra -l Administrator -P rockyou.txt rdp://192.168.1.15
+  ````
+## 3. Résultats et Observations
+
+- Événements Windows générés : Apparition massive d'événements d'échec de connexion (Event ID 4625) dans l'observateur d'événements de sécurité Windows.
+
+- Remontée SIEM : L'agent Wazuh transmet les journaux en temps réel. La répétition rapide des échecs déclenche une règle de corrélation de niveau élevé (Brute-force attack / Authentication failure).
