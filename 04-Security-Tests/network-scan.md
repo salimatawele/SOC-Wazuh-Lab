@@ -1,4 +1,4 @@
-# Test de Sécurité : Scan Réseau et Reconnaissance (Jour 4)
+# Test de Sécurité : Scan Réseau et Reconnaissance
 
 ## 1. Objectif du Test
 Effectuer un balayage de ports (reconnaissance) depuis Kali Linux pour simuler la phase initiale de repérage d'un attaquant sur le réseau local.
