@@ -1,4 +1,4 @@
-### Test de Sécurité : Activité PowerShell Suspecte 
+# Test de Sécurité : Activité PowerShell Suspecte 
 
 ## 1. Objectif du Test
 Exécuter une commande ou un script obfusqué via PowerShell sur la machine Windows pour valider la surveillance fine des processus par Sysmon et leur détection par Wazuh.
